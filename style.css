@@ -36,13 +36,13 @@ nav ul li {
 }
 
 nav ul li a {
-  color: black;
+  color: white;
   position: relative;
   padding: 5px 0;
 }
 
 nav ul li a:hover {
-  color: #fd4766;
+  color: #271f72;
 }
 
 nav ul li a:after {
@@ -51,7 +51,7 @@ nav ul li a:after {
   left: 0;
   width: 0;
   height: 3px;
-  background: #fd4766;
+  background: #271f72;
   transition: 0.3s;
   bottom: 0;
 }
@@ -71,14 +71,14 @@ nav ul li a:hover:after {
   font-weight: 500;
   transition: all 0.4s ease-in-out;
   background-size: 152% 100%;
-  background: #fd4766;
-  border: 2px solid #fd4766;
+  background: #271f72;
+  border: 2px solid #271f72;
 }
 
 .btn:hover {
   background: transparent;
-  border-color: #fd4766;
-  color: #fd4766;
+  border-color: #271f72;
+  color: #271f72;
 }
 
 .content {
@@ -98,14 +98,18 @@ nav ul li a:hover:after {
     120deg,
     #1c99fe 20.69%,
     #7644ff 50.19%,
-    #fd4766 79.69%
+    #271f72 79.69%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .content h1 span {
-  color: #fd4766;
+  color: #271f72;
+}
+
+.content h1 {
+  color: white;
 }
 
 .content p {
