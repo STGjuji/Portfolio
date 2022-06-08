@@ -13,8 +13,15 @@ a {
 
 .hero {
   width: 100%;
+  height: 154vh;
+  background: url(/assets/img/bglong.jpg);
+  background-size: cover;
+}
+
+.hero_main {
+  width: 100%;
   height: 100vh;
-  background: url(/assets/img/bg3.jpg);
+  background: url(/assets/img/bglong.jpg);
   background-size: cover;
 }
 
