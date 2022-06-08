@@ -58,7 +58,12 @@ nav ul li a:after {
   left: 0;
   width: 0;
   height: 3px;
-  background: #7644ff;
+  background: linear-gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    #1c99fe 79.69%
+  );
   transition: 0.3s;
   bottom: 0;
 }
@@ -105,7 +110,7 @@ nav ul li a:hover:after {
     120deg,
     #1c99fe 20.69%,
     #7644ff 50.19%,
-    #78aad3fb 79.69%
+    #1c99fe 79.69%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
