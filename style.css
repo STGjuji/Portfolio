@@ -42,7 +42,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #271f72;
+  color: #7644ff;
 }
 
 nav ul li a:after {
@@ -51,7 +51,7 @@ nav ul li a:after {
   left: 0;
   width: 0;
   height: 3px;
-  background: #271f72;
+  background: #7644ff;
   transition: 0.3s;
   bottom: 0;
 }
@@ -77,8 +77,8 @@ nav ul li a:hover:after {
 
 .btn:hover {
   background: transparent;
-  border-color: #271f72;
-  color: #271f72;
+  border-color: white;
+  color: #7644ff;
 }
 
 .content {
