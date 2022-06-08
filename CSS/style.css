@@ -105,7 +105,7 @@ nav ul li a:hover:after {
     120deg,
     #1c99fe 20.69%,
     #7644ff 50.19%,
-    #58519b 79.69%
+    #78aad3fb 79.69%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -124,4 +124,5 @@ nav ul li a:hover:after {
   color: rgb(204, 201, 201);
   margin-top: 25px;
   margin-bottom: 30px;
+  letter-spacing: 1px;
 }
