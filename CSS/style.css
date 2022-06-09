@@ -25,6 +25,41 @@ a {
   background-size: cover;
 }
 
+.stated {
+  color: #1f1f25;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline-block;
+  margin-bottom: 20px;
+  background: linear-gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    #1c99fe 79.69%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stated:hover {
+  color: #7644ff;
+}
+
+.stated:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #7644ff;
+  transition: 0.6s;
+  bottom: 0;
+}
+
+.stated:hover:after {
+  width: 12%;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -125,4 +160,9 @@ nav ul li a:hover:after {
   margin-top: 25px;
   margin-bottom: 30px;
   letter-spacing: 1px;
+}
+
+.gif {
+  width: 50%;
+  margin-top: 15px;
 }

@@ -13,3 +13,5 @@ background: linear-gradient(
     #7644ff 50.19%,
     #58519b 79.69%
   );
+
+<li><a href="/pages/Projects.html">Projekter</a></li>
