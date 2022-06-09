@@ -58,13 +58,8 @@ nav ul li a:after {
   left: 0;
   width: 0;
   height: 3px;
-  background: linear-gradient(
-    120deg,
-    #1c99fe 20.69%,
-    #7644ff 50.19%,
-    #1c99fe 79.69%
-  );
-  transition: 0.3s;
+  background-color: #7644ff;
+  transition: 0.6s;
   bottom: 0;
 }
 
